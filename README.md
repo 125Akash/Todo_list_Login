@@ -28,12 +28,12 @@ To run this Todo app locally, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/125Akash/Todo_App_React.js.git
+   git clone https://github.com/125Akash/Todo_list_Login.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd todo-app-react
+   cd Todo_list_Login
    ```
 
 3. Install the required dependencies:
