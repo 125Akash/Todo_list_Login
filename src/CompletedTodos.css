@@ -1,0 +1,31 @@
+/* CompletedTodos.css */
+.completed-todo-list {
+    list-style: none;
+    /* Remove list bullets */
+    padding: 10px;
+   
+    /* Remove default padding */
+}
+
+.completed-todo-list li {
+  margin-bottom: 10px; /* Spacing between each completed todo item */
+  padding: 8px;
+  background-color: #f0f0f0; /* Background color for each item */
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border:2px solid green;
+    /* Spacing between each completed todo item */
+}
+
+/* Styling for the "Move to Active" button (you can customize this further) */
+.move-to-active-button {
+    transition: all 0.3s ease;
+}
+
+.move-to-active-button:hover {
+  transform: scale(1.1);
+    /* Darker blue on hover */
+}

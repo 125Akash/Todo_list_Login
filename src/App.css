@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Prompt&display=swap');
+body{
+    background-color: white;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.App {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 70%;
+    
+    margin-left:100px;
+}
+
+button {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+.todo-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    font-size: medium;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-card.completed {
+    text-decoration: line-through;
+    background-color: #f0f0f0;
+}
+
+.todo-text {
+    flex: 1;
+}
+
+.todo-actions button {
+    margin-left: 5px;
+    background-color: #bbf0db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.compeleteButton{
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+.compeleteButton:hover{
+    transform: scale(1.1);
+    
+}
+.deleteButton {
+        margin-left: 5px;
+        transition: all 0.3s ease;
+       
+}
+.deleteButton:hover{
+    transform: scale(1.1);
+}
+.editButton{
+        margin-left: 10px;
+        transition: all 0.3s ease;
+}
+.editButton:hover{
+        transform: scale(1.1);
+}
+.todo-actions button.edit-button {
+    background-color: rgb(0, 217, 255);
+}
+/* App.css (or your CSS file) */
+
+/* Styling for the "Add" button */
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    /* Darker blue on hover */
+}
+
+/* Styling for the "Reset" button */
+.reset-button {
+    margin-left: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.reset-button:hover {
+   transform: scale(1.1);
+    
+}
+
+/* Styling for the "Save" button in edit mode */
+.todo-edit button {
+    background-color: #28a745;
+    /* Green background color */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.todo-edit button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+.todo-edit input {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 70%;
+
+}
+
+.loader{
+    margin-top:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

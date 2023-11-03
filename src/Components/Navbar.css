@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040506; /* Background color for the navbar */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #af11d2; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #c02bac; 
+    transform: scale(1.1);
+  }
+  
